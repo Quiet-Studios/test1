@@ -6,4 +6,16 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: navajowhite;
+    background-image: url("images\tiger.png");
+}
+header{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px 30px;
+}
+section{
+    background: cornsilk;
+}
+footer{
+    background: gray;
 }
