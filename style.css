@@ -7,6 +7,7 @@ body {
     min-height: 100vh;
     background-color: navajowhite;
     background-image: url("images\tiger.png");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
     background-color: rgb(54, 65, 61);
@@ -47,7 +48,19 @@ li{
 }
 a{
     color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 h1{
     text-align: center;
+    padding: 20px;
+}
+section.content.images div{
+    width: 100%;
+    margin: 20px;
+}
+li.logo{
+    background-image: url(images/idk.jpg);
 }
